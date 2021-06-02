@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <title>Business card</title>
+</head>
+<body>
+    
+    <header class = "header">
+        <div class="container container__header">
+            <h2 class = "h2">Сайт Артёма Павловского</h2>
+        </div>
+    </header>
+
+    <div class="intro" id="intro">
+        <div class="container container__intro">
+            <div class="intro-left">
+                <h1 class = "title">Веб-разработчик</h1>
+                <h2 class="subtitle">Привет! Я занимаюсь вёртской адаптивных сайтов по макету. Пишите для сотрудничества.</h2>
+                <div id="btn_modal_window" class = "btn"><a href = "#" class = "btn-text">Заказать сайт</a></div>
+                <div id="my_modal" class="modal">
+                    <div class="modal_content">
+                        <span class="close_modal_window">×</span>
+                        <h2 class = "modal__title">Заказать сайт</h2>
+                        <div class="forms">
+                            <input type="name" class = "name" placeholder="  Введите своё имя" title = "Ваше имя" required >
+                            <input type="email" class = "email" placeholder="  Введите ваш email" title = "Ваш email" required>
+                            <input type="tel" class = "tel" placeholder="  Введите номер телефона" title = "Ваш телефон" required>
+                        </div>
+                        <div class = "btn btn__modal">
+                             <a href="#" class = "btn-text btn-text__modal">Заказать сайт</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="intro-right">
+                <img class="img" src="../img/man.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+  <script src = "../js/app.js"></script>
+</body>
+</html>
